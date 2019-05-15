@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/main.css"  media="screen,projection"/>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+  <header>
+    <div class="container"><a href="#" data-target="nav-mobile" class="top-nav sidenav-trigger full hide-on-large-only"><i class="material-icons">menu</i></a></div>
+    <ul id="nav-mobile" class="sidenav sidenav-fixed">
+      <li class="bold"><a href="about.html" class="waves-effect waves-teal">Live</a></li>
+      <li class="bold">
+        <a href="about.html" class="waves-effect waves-teal">
+            <i class="material-icons left">group</i>
+            Colaboradores
+        </a>
+      </li>
+      <li class="bold">
+        <a href="getting-started.html" class="waves-effect waves-teal">
+            <i class="material-icons left">dashboard</i>
+            Cursos
+        </a>
+      </li>
+    </ul>
+  </header>
+
+  <main>
+
+    <nav class="transparent z-depth-0">
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!">one</a></li>
+        <li><a href="#!">two</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">three</a></li>
+      </ul>
+      <div class="nav-wrapper">
+        <ul class="right hide-on-med-and-down">
+          <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Ricardo Barato<i class="material-icons right">arrow_drop_down</i></a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="content z-depth-1 white">
+      <h3>14 Práticas de Negociação</h3>
+      <div>03 de Agosto de 2018</div>
+      <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>checklist</a>
+      <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>baixar conteúdo</a>
+      <div>bar</div>
+      <table class="highlight responsive-table">
+        <tbody>
+          <tr>
+            <td>Paula Mayumi</td>
+            <td>Cargo:</td>
+            <td>Empresa:</td>
+            <td>
+              <a class="grey lighten-5 blue-text btn">abrir</a>
+              <a class="grey lighten-5 orange-text text-darken-4 btn">remover</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Paula Mayumi</td>
+            <td>Cargo:</td>
+            <td>Empresa:</td>
+            <td>
+              <a class="grey lighten-5 blue-text btn">abrir</a>
+              <a class="grey lighten-5 orange-text text-darken-4 btn">remover</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Paula Mayumi</td>
+            <td>Cargo:</td>
+            <td>Empresa:</td>
+            <td>
+              <a class="grey lighten-5 blue-text btn">abrir</a>
+              <a class="grey lighten-5 orange-text text-darken-4 btn">remover</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Paula Mayumi</td>
+            <td>Cargo:</td>
+            <td>Empresa:</td>
+            <td>
+              <a class="grey lighten-5 blue-text btn">abrir</a>
+              <a class="grey lighten-5 orange-text text-darken-4 btn">remover</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+  </main>
+
+
+
+
+
+
+  <!--JavaScript at end of body for optimized loading-->
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems, null);
+      var elems = document.querySelectorAll('.dropdown-triggerb');
+      var instances = M.Dropdown.init(elems, null);
+    });
+  </script>
+</body>
+</html>
