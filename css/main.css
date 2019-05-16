@@ -6,10 +6,37 @@ header, main, footer {
   padding: 0 20px 0 320px;
 }
 
+main {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
 @media only screen and (max-width: 992px) {
   header,main,footer {
       padding-left: 20px;
   }
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.btn {
+  border-radius: 10px;
+  box-shadow: none;
+  font-weight: 500;
+}
+
+.btn-grey {
+  background-color: #f5f5f5;
+}
+
+.btn-text-yellow {
+  color: #dea727
+}
+
+.btn-text-blue {
+  color: #029ba0
 }
 
 .dropdown-trigger {
@@ -17,5 +44,70 @@ header, main, footer {
 }
 
 .content {
+  border: solid 1px #f0f0f0;
   padding: 20px;
+}
+
+.content .title {
+  margin-bottom: 0;
+}
+
+.content .actions-btn {
+  margin: 30px 0 10px 0;
+}
+
+.content .table-actions {
+  border-bottom: solid 1px #f0f0f0;
+  margin-top: 50px;
+}
+
+.li-logo {
+  margin-bottom: 100px;
+}
+
+.yellow-text--custom {
+  color: #dea727!important;
+}
+
+.blue-text--custom {
+  color: #029ba0!important;
+}
+
+.sidenav {
+  border-right: solid 1px #f0f0f0;
+}
+
+.sidenav li.active {
+  background-color: #fcfcfc;
+  border-left: solid 5px;
+}
+
+.sidenav li.active.bl-yellow {
+  border-color: #dea727;
+}
+
+.sidenav li.active.bl-blue {
+  border-color: #029ba0;
+}
+
+.nav-main {
+  line-height: normal;
+  margin-bottom: 50px;
+}
+
+.nav-main .user-info {
+  height: 60px;
+  margin-top: 10px;
+}
+
+.nav-main .user-img {
+  margin-left: 15px;
+}
+
+.input-search {
+  background-color: #fbfbfb!important;
+  border: solid 1px #f1f1f1!important;
+  border-radius: 10px!important;
+  height: 36px!important;
+  padding: 0 10px!important;
 }

@@ -14,26 +14,29 @@
 <body>
   <header>
     <div class="container"><a href="#" data-target="nav-mobile" class="top-nav sidenav-trigger full hide-on-large-only"><i class="material-icons">menu</i></a></div>
-    <ul id="nav-mobile" class="sidenav sidenav-fixed">
-      <li class="bold"><a href="about.html" class="waves-effect waves-teal">Live</a></li>
-      <li class="bold">
+    <ul id="nav-mobile" class="sidenav sidenav-fixed z-depth-0">
+      <li class="li-logo">
+        <a href="about.html" class="waves-effect waves-teal" style="height: auto; padding: 0">
+          <img src="img/logo.png" alt="" class="responsive-img">
+        </a>
+      </li>
+      <li class="bold bl-yellow">
         <a href="about.html" class="waves-effect waves-teal">
-            <i class="material-icons left">group</i>
+            <i class="material-icons left yellow-text--custom">group</i>
             Colaboradores
         </a>
       </li>
-      <li class="bold">
+      <li class="bold active bl-blue">
         <a href="getting-started.html" class="waves-effect waves-teal">
-            <i class="material-icons left">dashboard</i>
+            <i class="material-icons left blue-text--custom">dashboard</i>
             Cursos
         </a>
       </li>
     </ul>
   </header>
 
-  <main>
-
-    <nav class="transparent z-depth-0">
+  <main class="main-content">
+    <nav class="transparent z-depth-0 nav-main">
       <ul id="dropdown1" class="dropdown-content">
         <li><a href="#!">one</a></li>
         <li><a href="#!">two</a></li>
@@ -41,56 +44,93 @@
         <li><a href="#!">three</a></li>
       </ul>
       <div class="nav-wrapper">
-        <ul class="right hide-on-med-and-down">
-          <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Ricardo Barato<i class="material-icons right">arrow_drop_down</i></a></li>
+        <ul class="right">
+          <li>
+            <a class="dropdown-trigger" href="#!" data-target="dropdown1">
+              <div class="left right-align user-info">
+                <div>Ricardo Barato</div>
+                <small>Live University</small>
+              </div>
+              <img src="https://placehold.co/60" alt="" class="circle responsive-img user-img">
+              <i class="material-icons right">arrow_drop_down</i>
+            </a>
+          </li>
         </ul>
       </div>
     </nav>
 
-    <section class="content z-depth-1 white">
-      <h3>14 Práticas de Negociação</h3>
-      <div>03 de Agosto de 2018</div>
-      <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>checklist</a>
-      <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>baixar conteúdo</a>
-      <div>bar</div>
+    <section class="content z-depth-1 white z-depth-0">
+      <h5 class="title yellow-text--custom">14 Práticas de Negociação</h5>
+      <div class="yellow-text--custom">03 de Agosto de 2018</div>
+      <div class="actions-btn">
+        <a class="btn btn-grey btn-text-yellow"><i class="material-icons left">playlist_add_check</i>checklist</a>
+        <a class="btn btn-grey btn-text-blue"><i class="material-icons left">cloud_download</i>baixar conteúdo</a>
+      </div>
+      <div class="row table-actions">
+        <div class="col s12 m6 btn-text-blue">Colaboradores</div>
+        <div class="col s12 m3">
+            <a class="btn btn-grey btn-text-yellow"><i class="material-icons left">add</i>adicionar</a>
+        </div>
+        <div class="col s12 m3">
+          <input id="icon_prefix2" type="text" class="input-search" placeholder="pesquisar"/>
+        </div>
+      </div>
       <table class="highlight responsive-table">
         <tbody>
           <tr>
-            <td>Paula Mayumi</td>
-            <td>Cargo:</td>
-            <td>Empresa:</td>
             <td>
-              <a class="grey lighten-5 blue-text btn">abrir</a>
-              <a class="grey lighten-5 orange-text text-darken-4 btn">remover</a>
+              <div>Paula Mayumi</div>
+              <small>paula.konno@febracorp.org.br</small>
+            </td>
+            <td>
+              <div>Cargo:</div>
+              <div>Assistente</div>
+            </td>
+            <td>
+                <div>Empresa:</div>
+                <div>Live University</div>
+              </td>
+            <td class="right-align">
+              <a class="btn btn-grey btn-text-blue">abrir</a>
+              <a class="btn btn-grey btn-text-yellow">remover</a>
             </td>
           </tr>
           <tr>
-            <td>Paula Mayumi</td>
-            <td>Cargo:</td>
-            <td>Empresa:</td>
             <td>
-              <a class="grey lighten-5 blue-text btn">abrir</a>
-              <a class="grey lighten-5 orange-text text-darken-4 btn">remover</a>
+              <div>Paula Mayumi</div>
+              <small>paula.konno@febracorp.org.br</small>
+            </td>
+            <td>
+              <div>Cargo:</div>
+              <div>Assistente</div>
+            </td>
+            <td>
+                <div>Empresa:</div>
+                <div>Live University</div>
+              </td>
+            <td class="right-align">
+              <a class="btn btn-grey btn-text-blue">abrir</a>
+              <a class="btn btn-grey btn-text-yellow">remover</a>
             </td>
           </tr>
           <tr>
-            <td>Paula Mayumi</td>
-            <td>Cargo:</td>
-            <td>Empresa:</td>
-            <td>
-              <a class="grey lighten-5 blue-text btn">abrir</a>
-              <a class="grey lighten-5 orange-text text-darken-4 btn">remover</a>
-            </td>
-          </tr>
-          <tr>
-            <td>Paula Mayumi</td>
-            <td>Cargo:</td>
-            <td>Empresa:</td>
-            <td>
-              <a class="grey lighten-5 blue-text btn">abrir</a>
-              <a class="grey lighten-5 orange-text text-darken-4 btn">remover</a>
-            </td>
-          </tr>
+              <td>
+                <div>Paula Mayumi</div>
+                <small>paula.konno@febracorp.org.br</small>
+              </td>
+              <td>
+                <div>Cargo:</div>
+                <div>Assistente</div>
+              </td>
+              <td>
+                  <div>Empresa:</div>
+                  <div>Live University</div>
+                </td>
+              <td class="right-align">
+                <a class="btn btn-grey btn-text-blue">abrir</a>
+                <a class="btn btn-grey btn-text-yellow">remover</a>
+              </td>
+            </tr>
         </tbody>
       </table>
     </section>
